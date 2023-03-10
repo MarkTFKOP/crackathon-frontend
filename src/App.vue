@@ -1,16 +1,15 @@
-<template>
-  <header><Navbar></Navbar></header>
-  <main></main>
-</template>
-
 <script>
-import "./assets/reset.css";
-import Navbar from "./components/Navbar/Navbar.vue";
+import HelloWorld from "./components/HelloWorld.vue";
 
 export default {
-  name: "App.vue",
-  components: { Navbar },
+  components: {
+    HelloWorld,
+  },
 };
 </script>
+
+<template>
+  <HelloWorld />
+</template>
 
 <style scoped></style>
